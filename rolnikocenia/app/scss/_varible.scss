@@ -1,0 +1,49 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 400px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 1000px;
+
+// Large tablets and desktops
+$screen-xl-min: 1365px;
+
+
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+}
+
+$white: #fff;
+$text: #6d6d6d;
+$black: #333333;
+$darkGray: #272C38;
+$yellow: #FFCC00;
+$green: #009900;
+
+$primaryFont: "neue-haas-grotesk-display", sans-serif;
+$containerWidth: 1360px;

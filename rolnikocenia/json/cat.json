@@ -1,0 +1,118 @@
+[
+    {
+        "id": "1",
+        "name": "Skup innych nasion"
+    },
+    {
+        "id": "2",
+        "name": "Skup zbo\u017ca"
+    },
+    {
+        "id": "3",
+        "name": "Skup ziemniak\u00f3w"
+    },
+    {
+        "id": "4",
+        "name": "Skup mleka"
+    },
+    {
+        "id": "5",
+        "name": "Skup burak\u00f3w"
+    },
+    {
+        "id": "6",
+        "name": "Skup tytoniu"
+    },
+    {
+        "id": "7",
+        "name": "Skup warzyw"
+    },
+    {
+        "id": "8",
+        "name": "Skup owoc\u00f3w"
+    },
+    {
+        "id": "9",
+        "name": "Skup traw"
+    },
+    {
+        "id": "10",
+        "name": "Skup str\u0105czkowych"
+    },
+    {
+        "id": "13",
+        "name": "Skup kr\u00f3w"
+    },
+    {
+        "id": "14",
+        "name": "Skup \u015bwi\u0144"
+    },
+    {
+        "id": "15",
+        "name": "Skup drobiu"
+    },
+    {
+        "id": "16",
+        "name": "Sprzeda\u017c nawoz\u00f3w"
+    },
+    {
+        "id": "17",
+        "name": "Sprzeda\u017c pestycyd\u00f3w i od\u017cywek"
+    },
+    {
+        "id": "19",
+        "name": "Sprzeda\u017c w\u0119gla"
+    },
+    {
+        "id": "20",
+        "name": "Sprzeda\u017c cz\u0119\u015bci"
+    },
+    {
+        "id": "22",
+        "name": "Sprzeda\u017c wapna"
+    },
+    {
+        "id": "23",
+        "name": "Sprzeda\u017c folii"
+    },
+    {
+        "id": "24",
+        "name": "Sprzeda\u017c karmy"
+    },
+    {
+        "id": "25",
+        "name": "Weterynarz"
+    },
+    {
+        "id": "26",
+        "name": "Mechanicy"
+    },
+    {
+        "id": "27",
+        "name": "Materia\u0142 siewny"
+    },
+    {
+        "id": "28",
+        "name": "Us\u0142ugi rolne"
+    },
+    {
+        "id": "29",
+        "name": "Us\u0142ugi transportowe"
+    },
+    {
+        "id": "30",
+        "name": "Nasiona warzyw"
+    },
+    {
+        "id": "31",
+        "name": "Doradztwo rolne"
+    },
+    {
+        "id": "33",
+        "name": "Sprzeda\u017c maszyn"
+    },
+    {
+        "id": "34",
+        "name": "Sprzeda\u017c paliwa"
+    }
+]

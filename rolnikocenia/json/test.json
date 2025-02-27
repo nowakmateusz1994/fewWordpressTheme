@@ -1,0 +1,51 @@
+[
+    {
+        "id": 748,
+        "c_name": "Mirak Lecznica Weterynaryjna Miros\u0142aw Rak Toru\u0144 \u015bw. J\u00f3zefa 113; 87-100 Toru\u0144",
+        "score": 5,
+        "v_name": "kujawsko-pomorskie",
+        "num_reviews": 1
+    },
+    {
+        "id": 2950,
+        "c_name": "Agrolok -Przedstawiciel powiat  p\u0142o\u0144ski",
+        "score": 4.5,
+        "v_name": "mazowieckie",
+        "num_reviews": 1
+    },
+    {
+        "id": 743,
+        "c_name": "Elza Ma\u0142gorzata Miko\u0142ajczak Gabinet weterynaryjny \u015awidnik Wiejska 26; 21-040 \u015awidnik",
+        "score": 4.7,
+        "v_name": "lubelskie",
+        "num_reviews": 1
+    },
+    {
+        "id": 26,
+        "c_name": "Stacja paliw Moya Ciechan\u00f3w Mazowiecka 9; 06-400 Ciechan\u00f3w",
+        "score": 3.5,
+        "v_name": "mazowieckie",
+        "num_reviews": 1
+    },
+    {
+        "id": 39,
+        "c_name": "Stacja paliw Garwolin aleja Legion\u00f3w 4; 08-400 Garwolin",
+        "score": 2.3,
+        "v_name": "mazowieckie",
+        "num_reviews": 1
+    },
+    {
+        "id": 860,
+        "c_name": "ABBAS Sp. zo.o. Grupa Producent\u00f3w Rolnych Karlino Kar\u015bcino 29; 78-230 Karlino",
+        "score": 4.9,
+        "v_name": "zachodniopomorskie",
+        "num_reviews": 1
+    },
+    {
+        "id": 4837,
+        "c_name": "Chaniewski. Cz\u0119\u015bci do ci\u0105gnik\u00f3w i maszyn rolniczych Bia\u0142ystok Elewatorska 29, 15-620 Bia\u0142ystok",
+        "score": 3.2,
+        "v_name": "podlaskie",
+        "num_reviews": 1
+    }
+]

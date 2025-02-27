@@ -1,0 +1,194 @@
+@import 'varible';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.content {
+    margin-top: -1px;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.container {
+    padding: 0 1rem !important;
+    max-width: $containerWidth;
+    width: 100%;
+    margin: 0 auto;
+
+    @include xl {
+        padding: 0;
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: $primaryFont;
+    background: #F9F9F9;
+    letter-spacing: .5px;
+    margin-bottom: -3px;
+}
+
+
+
+.section-title {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22.84px;
+    padding-bottom: 14px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+
+    @include lg {
+        font-size: 20px;
+        line-height: 24.06px;
+        padding-bottom: 19px;
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 2px;
+    color: $white;
+    background: $black;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16.7px;
+    transition: .3s all;
+
+    @include lg {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+
+    &:hover {
+        background: $green;
+    }
+
+    &-green {
+        background: $green;
+
+        &:hover {
+            background: $black;
+        }
+    }
+
+    &-events {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding-right: 32px;
+
+        &::before {
+            content: url('../svg/arrow-right.svg');
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            transform: translateY(-45%);
+        }
+
+    }
+}
+
+img {
+    max-width: 100%
+}
+
+.overfllow {
+    scroll-behavior: smooth;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.breadcrumbs {
+    flex-basis: 100%;
+    max-width: $containerWidth;
+    margin: 0 auto;
+    padding-bottom: 4px;
+    opacity: .5;
+    font-size: 10px;
+    line-height: 11.56px;
+    color: #333;
+    font-weight: 500;
+
+    @include md {
+        font-size: 14px;
+        line-height: 16.43px;
+    }
+
+    a {
+        color: #333;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+}
+
+@import 'splide.min';
+
+@import 'header';
+@import 'footer';
+@import 'home';
+@import 'add';
+@import 'archive';
+@import 'single';
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+
+    @include lg {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0, .1);
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2f2f2f;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
+::-webkit-scrollbar-button {
+    width: 16px;
+
+    @include xl {
+        // $widthBetwenFullAndContainer: calc(100vw - $containerWidth);
+        width: calc((100vw - $containerWidth)/4);
+    }
+}

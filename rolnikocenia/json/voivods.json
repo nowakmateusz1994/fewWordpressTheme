@@ -1,0 +1,1458 @@
+[
+    {
+        "id": "12",
+        "name": "dolno\u015bl\u0105skie",
+        "conunties": [
+            {
+                "county": "boles\u0142awiecki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "dzier\u017coniowski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "g\u0142ogowski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "g\u00f3rowski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "jaworski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "jeleniog\u00f3rski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "kamiennog\u00f3rski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "karkonoski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "k\u0142odzki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "legnicki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "leszczy\u0144ski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "luba\u0144ski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "lubi\u0144ski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "lw\u00f3wecki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "milicki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "ole\u015bnicki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "o\u0142awski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "polkowicki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "strzeli\u0144ski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "\u015bredzki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "\u015bwidnicki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "trzebnicki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "wa\u0142brzyski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "wo\u0142owski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "wroc\u0142awski",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "z\u0105bkowicki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "zgorzelecki",
+                "voivodship_id": "12"
+            },
+            {
+                "county": "z\u0142otoryjski",
+                "voivodship_id": "12"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "kujawsko-pomorskie",
+        "conunties": [
+            {
+                "county": "aleksan drowski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "aleksandrowski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "brodnicki",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "bydgoski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "che\u0142mi\u0144ski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "golubsko-dobrzy\u0144ski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "grudzi\u0105dzki",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "i\u0142awski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "inowroc\u0142awski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "lipnowski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "mogile\u0144ski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "nakielski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "radziejowski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "rypi\u0144ski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "s\u0119pole\u0144ski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "\u015bwiecki",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "toru\u0144ski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "tucholski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "w\u0105brzeski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "w\u0142oc\u0142awski",
+                "voivodship_id": "13"
+            },
+            {
+                "county": "\u017cni\u0144ski",
+                "voivodship_id": "13"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "lubelskie",
+        "conunties": [
+            {
+                "county": "bialski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "bi\u0142gorajski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "che\u0142mski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "gorzowski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "hrubieszowski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "janowski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "krasnostawski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "kra\u015bnicki",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "lubartowski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "lubelski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "lubli\u0144ski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "\u0142\u0119czy\u0144ski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "\u0142ukowski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "opolski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "parczewski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "pu\u0142awski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "radzy\u0144ski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "rycki",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "\u015bwidnicki",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "tomaszowski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "w\u0142odawski",
+                "voivodship_id": "14"
+            },
+            {
+                "county": "zamojski",
+                "voivodship_id": "14"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "lubuskie",
+        "conunties": [
+            {
+                "county": "gorzowski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "hrubieszowski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "kro\u015bnie\u0144ski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "mi\u0119dzyrzecki",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "nowosolski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "s\u0142ubicki",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "strzelecko-drezdenecki",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "sul\u0119ci\u0144ski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "\u015bwidnicki",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "\u015bwiebodzi\u0144ski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "wschowski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "zielonog\u00f3rski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "\u017caga\u0144ski",
+                "voivodship_id": "15"
+            },
+            {
+                "county": "\u017carski",
+                "voivodship_id": "15"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "\u0142\u00f3dzkie",
+        "conunties": [
+            {
+                "county": "be\u0142chatowski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "brzezi\u0144ski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "kutnowski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "\u0142aski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "\u0142\u0119czycki",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "\u0142owicki",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "\u0142\u00f3dzki",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "\u0142\u00f3dzki wschodni",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "opoczy\u0144ski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "pabianicki",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "paj\u0119cza\u0144ski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "piotrkowski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "podd\u0119bicki",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "radomszcza\u0144ski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "rawski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "sieradzki",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "skierniewicki",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "tomaszowski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "wielu\u0144ski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "wieruszowski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "zdu\u0144skowolski",
+                "voivodship_id": "16"
+            },
+            {
+                "county": "zgierski",
+                "voivodship_id": "16"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "name": "ma\u0142opolskie",
+        "conunties": [
+            {
+                "county": "boche\u0144ski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "brzeski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "chrzanowski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "d\u0105browski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "gorlicki",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "krakowski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "limanowski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "miechowski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "my\u015blenicki",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "nowos\u0105decki",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "nowotarski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "olkuski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "o\u015bwi\u0119cimski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "proszowicki",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "suski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "tarnowski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "tatrza\u0144ski",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "wadowicki",
+                "voivodship_id": "17"
+            },
+            {
+                "county": "wielicki",
+                "voivodship_id": "17"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "name": "mazowieckie",
+        "conunties": [
+            {
+                "county": "bia\u0142obrzeski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "ciechanowski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "garwoli\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "gostyni\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "grodziski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "gr\u00f3jecki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "kozienicki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "legionowski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "lipski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "\u0142osicki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "makowski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "mi\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "m\u0142awski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "nowodworski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "nowodw\u00f3rski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "ostro\u0142\u0119cki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "ostrowski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "otwocki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "piaseczy\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "p\u0142ocki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "p\u0142o\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "pruszkowski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "przasnyski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "przysuski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "pu\u0142tuski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "radomski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "siedlecki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "sierpecki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "sochaczewski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "soko\u0142owski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "szyd\u0142owiecki",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "warszawski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "warszawskizachodni",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "w\u0119growski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "wo\u0142omi\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "wyszkowski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "zwole\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "\u017curomi\u0144ski",
+                "voivodship_id": "18"
+            },
+            {
+                "county": "\u017cyrardowski",
+                "voivodship_id": "18"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "name": "opolskie",
+        "conunties": [
+            {
+                "county": "brzeski",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "g\u0142upczycki",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "k\u0119dzierzy\u0144sko - kozielski",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "kluczborski",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "krapkowicki",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "namys\u0142owski",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "nyski",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "oleski",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "opolski",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "prudnicki",
+                "voivodship_id": "19"
+            },
+            {
+                "county": "strzelecki",
+                "voivodship_id": "19"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "name": "podkarpackie",
+        "conunties": [
+            {
+                "county": "bieszczadzki",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "brzozowski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "d\u0119bicki",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "jaros\u0142awski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "jasielski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "kolbuszowski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "kro\u015bnie\u0144ski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "leski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "le\u017cajski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "lubaczowski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "\u0142a\u0144cucki",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "mielecki",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "ni\u017ca\u0144ski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "przemyski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "przeworski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "ropczycko - s\u0119dziszowski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "rzeszowski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "sanocki",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "stalowowolski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "strzy\u017cowski",
+                "voivodship_id": "20"
+            },
+            {
+                "county": "tarnobrzeski",
+                "voivodship_id": "20"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "name": "podlaskie",
+        "conunties": [
+            {
+                "county": "augustowski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "bia\u0142ostocki",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "bielski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "grajewski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "hajnowski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "kolne\u0144ski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "\u0142om\u017cy\u0144ski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "moniecki",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "sejne\u0144ski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "siemiatycki",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "sok\u00f3lski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "suwalski",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "wysokomazowiecki",
+                "voivodship_id": "21"
+            },
+            {
+                "county": "zambrowski",
+                "voivodship_id": "21"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "name": "pomorskie",
+        "conunties": [
+            {
+                "county": "bytowski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "chojnicki",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "cz\u0142uchowski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "gda\u0144ski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "gdy\u0144ski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "kartuski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "ko\u015bcierski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "kwidzy\u0144ski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "l\u0119borski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "malborski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "nowodworski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "pucki",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "s\u0142upski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "starogardzki",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "sztumski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "tczewski",
+                "voivodship_id": "22"
+            },
+            {
+                "county": "wejherowski",
+                "voivodship_id": "22"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "name": "\u015bl\u0105skie",
+        "conunties": [
+            {
+                "county": "b\u0119dzi\u0144ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "bielski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "bieru\u0144sko - l\u0119dzi\u0144ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "chorzowski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "cieszy\u0144ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "cz\u0119stochowski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "d\u0105browski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "gliwicki",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "jaworzy\u0144ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "katowicki",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "k\u0142obucki",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "lubliniecki",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "miko\u0142owski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "myszkowski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "pszczy\u0144ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "raciborski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "rybnicki",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "sosnowiecki",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "\u015bl\u0105ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "tarnog\u00f3rski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "tyski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "wodzis\u0142awski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "zabrza\u0144ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "zawiercia\u0144ski",
+                "voivodship_id": "23"
+            },
+            {
+                "county": "\u017cywiecki",
+                "voivodship_id": "23"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "name": "\u015bwi\u0119tokrzyskie",
+        "conunties": [
+            {
+                "county": "buski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "j\u0119drzejowski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "kazimierski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "kielecki",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "konecki",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "opatowski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "ostrowiecki",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "pi\u0144czowski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "sandomierski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "skar\u017cyski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "starachowicki",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "staszowski",
+                "voivodship_id": "24"
+            },
+            {
+                "county": "w\u0142oszczowski",
+                "voivodship_id": "24"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "name": "warmi\u0144sko-mazurskie",
+        "conunties": [
+            {
+                "county": "bartoszycki",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "braniewski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "dzia\u0142dowski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "elbl\u0105ski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "e\u0142cki",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "gi\u017cycki",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "go\u0142dapski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "ilawski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "i\u0142awski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "k\u0119trzy\u0144ski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "lidzbarski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "mr\u0105gowski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "nidzicki",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "nowomiejski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "olecki",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "olszty\u0144ski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "ostr\u00f3dzki",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "piski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "szczycie\u0144ski",
+                "voivodship_id": "25"
+            },
+            {
+                "county": "w\u0119gorzewski",
+                "voivodship_id": "25"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "name": "wielkopolskie",
+        "conunties": [
+            {
+                "county": "chodzieski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "czarnkowsko-trzcianecki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "gnie\u017anie\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "gnie\u017cnie\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "gosty\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "grodziski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "jaroci\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "kaliski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "k\u0119pi\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "kolski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "koni\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "ko\u015bcia\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "krotoszy\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "leszczy\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "mi\u0119dzychodzki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "nowotomyski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "obornicki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "ostrowski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "ostrzeszowski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "pilski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "pleszewski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "pozna\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "rawicki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "s\u0142upecki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "szamotulski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "\u015bredzki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "\u015bremski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "turecki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "w\u0105growiecki",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "wolszty\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "wrzesi\u0144ski",
+                "voivodship_id": "26"
+            },
+            {
+                "county": "z\u0142otowski",
+                "voivodship_id": "26"
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "name": "zachodniopomorskie",
+        "conunties": [
+            {
+                "county": "bia\u0142ogardzki",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "choszcze\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "drawski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "goleniowski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "gryficki",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "gryfi\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "kamie\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "ko\u0142obrzeski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "koszali\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "koszli\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "\u0142obeski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "my\u015bliborski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "policki",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "pyrzycki",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "s\u0142awie\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "stargardzki",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "starogardzki",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "szczecinecki",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "szczeci\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "\u015bwidwi\u0144ski",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "\u015awinouj\u015bcie",
+                "voivodship_id": "27"
+            },
+            {
+                "county": "wa\u0142ecki",
+                "voivodship_id": "27"
+            }
+        ]
+    }
+]
