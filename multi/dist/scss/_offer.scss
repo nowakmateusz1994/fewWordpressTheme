@@ -1,0 +1,128 @@
+.offer {
+    &_items {
+        padding-top: 2.5rem;
+
+        @include md {
+            padding-top: 5rem;
+        }
+
+        &_item {
+            margin-bottom: 2.5rem;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            justify-content: space-between;
+
+            &_img {
+                flex-basis: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                @include md {
+                    flex-basis: 33%;
+                }
+            }
+
+            &_content {
+                flex-basis: 100%;
+
+                @include md {
+                    flex-basis: calc(66% - 2rem);
+                }
+            }
+
+            &_title {
+                color: $primary;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                font-weight: 700;
+            }
+
+            &_description {
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+
+                p {
+                    margin-bottom: .5rem;
+                    margin-top: .5rem;
+                }
+            }
+
+        }
+    }
+
+    &_buttons {
+        text-align: center;
+        padding-top: 2.5rem;
+
+        @include md {
+            padding-top: 5rem;
+        }
+
+        &_items {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+
+            a {
+                border: 2px solid #e4e4e7;
+                display: inline-block;
+                padding: 1rem;
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+                transition: .3s all;
+
+                &:hover {
+                    color: $secondry;
+                }
+            }
+        }
+
+        &_subtitle {
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+        }
+
+        &_urls {
+            a {
+                display: inline-block;
+                margin-right: 2rem;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    &_content {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+
+        p {
+            margin-bottom: .5rem;
+            margin-top: .5rem;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $primary;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

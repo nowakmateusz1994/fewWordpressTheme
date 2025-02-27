@@ -1,0 +1,366 @@
+.header {
+
+    &_menu,
+    &_contact {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 14px 1rem;
+        }
+
+        &_wrap {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+            row-gap: 0px;
+            flex-wrap: wrap;
+        }
+
+        &_item {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 10px;
+            flex-basis: 100%;
+
+            @include md {
+                margin-top: 0;
+                flex-basis: auto;
+            }
+
+            a {
+                color: $black;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                font-family: $primaryFont;
+            }
+        }
+    }
+
+    &_contact {
+        background: #EBEBEB;
+
+        .container {
+            justify-content: flex-end;
+        }
+    }
+
+    &_menu {
+        background: $white;
+    }
+
+    &__branding {
+        img {
+            max-width: 150px;
+
+            @include md {
+                max-width: 251px;
+            }
+        }
+    }
+
+    &_scrolled {
+        position: fixed;
+        top: -100%;
+        transition: .75s all;
+        z-index: 6;
+        background: rgba($white, .85);
+        width: 100%;
+
+        &.show {
+            top: 0;
+        }
+    }
+
+
+    &__menu {
+
+
+        @include md {}
+
+        ul {
+            list-style: none;
+            margin-bottom: 0;
+            padding-left: 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+
+            li {
+                display: inline-block;
+                position: relative;
+                padding: 18px 0;
+                padding-right: 50px;
+
+                &.button {
+                    line-height: 100%;
+
+                    a {
+                        color: $white !important;
+
+                        &:hover {
+                            color: $white !important;
+                        }
+                    }
+                }
+
+                a {
+                    padding: 0;
+                    font-weight: bold;
+                    font-size: 16px;
+                    display: block;
+                    transition: .3s all;
+                    font-family: $titleFont;
+                    color: $black;
+
+                    &:hover {
+                        color: $black;
+                    }
+                }
+
+                .sub-menu {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: max-content;
+                    background: $gold;
+                    margin: 0;
+                    padding: 0;
+                    z-index: 99;
+                    box-shadow: 0 0 8px rgba($black, .25);
+
+                    li {
+                        display: block;
+                        position: relative;
+                        padding: 0 1rem;
+                        max-width: 300px;
+
+                        &.current-menu-item {
+                            &::before {
+                                display: none;
+                            }
+
+                            a {
+                                color: $white;
+                            }
+                        }
+
+                        a {
+                            display: block;
+                            font-weight: 300;
+                            color: #fff;
+                            padding: 10px 23px;
+                            transition: .3s all;
+                            font-weight: 600;
+
+                            &:hover {
+                                color: #EBEBEB;
+                            }
+                        }
+
+                        .sub-menu {
+                            top: 0;
+                            right: auto;
+                            left: 50%;
+                            transform: translateX(18%);
+                        }
+
+                        &.menu-item-has-children {
+                            position: relative;
+
+                            &>a {
+                                display: inline-block;
+                                padding-right: 32px;
+
+                                &:before {
+                                    color: $black;
+                                    content: '\f054';
+                                    font-family: 'Font Awesome 5 Free';
+                                    font-weight: 900;
+                                    position: absolute;
+                                    right: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.menu-item-has-children {
+                    position: relative;
+
+
+                    &>a {
+                        padding-right: 32px;
+                        cursor: pointer;
+
+                        &:before {
+                            color: $black;
+                            content: '\f078';
+                            font-family: 'Font Awesome 5 Free';
+                            font-weight: 900;
+                            position: absolute;
+                            right: 45px;
+                        }
+                    }
+
+                    &:hover {
+                        &>.sub-menu {
+                            display: block;
+                        }
+                    }
+                }
+
+
+                &.current-menu-item,
+                &.current-menu-parent {
+                    position: relative;
+
+                    a {
+                        color: $black;
+                    }
+                }
+
+                &:first-child {
+                    a {
+                        padding-left: 0;
+                    }
+                }
+            }
+
+        }
+    }
+
+    &_nav {
+        background: $black;
+    }
+
+    &__nav {
+
+        &_mobile {
+            padding: 18px 0;
+
+            &_button {
+                font-size: 32px;
+                color: $black;
+            }
+
+            &__content {
+                position: fixed;
+                top: 0;
+                right: 0;
+                background: $white;
+                transition: .3s all;
+                height: 100%;
+                z-index: 99;
+                padding: 64px 1rem;
+                max-width: 100%;
+                width: 100vw;
+                height: 100vh;
+
+                &.hide {
+                    right: -150%;
+                }
+
+                ul {
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        padding: .25rem 1rem;
+                        list-style: none;
+                        position: relative;
+                        min-height: 48px;
+                        max-width: 100%;
+                        overflow-x: hidden;
+
+                        a {
+                            display: block;
+                            font-size: 20px;
+                            font-weight: 600;
+                            min-height: 40px;
+                            line-height: 40px;
+                            position: relative;
+
+                        }
+
+                        &.menu-item-has-children {
+                            padding-right: 32px;
+                            cursor: pointer;
+
+
+                            &>a {
+                                &::before {
+                                    content: "\f107";
+                                    font-family: "Font Awesome 5 Free";
+                                    right: .75rem;
+                                    font-weight: 900;
+                                    position: absolute;
+                                    right: .75rem;
+                                    top: 50%;
+                                    font-size: 24px;
+                                    line-height: 40px;
+                                    color: $black;
+                                    transform: translateY(-50%);
+                                    transition: .3s all;
+
+                                    // @include lg {
+                                    //     top: 24px;
+                                    // }
+                                }
+
+                                &:hover {
+                                    &::before {
+                                        color: #fff;
+                                        ;
+                                    }
+                                }
+                            }
+
+                            .sub-menu {
+                                max-height: 0;
+                                overflow-y: hidden;
+                                transition: max-height .5s ease-out;
+                            }
+                        }
+
+                        &.button {
+                            line-height: 100%;
+                            padding: 9px 25px !important;
+                            padding-right: 82px !important;
+
+                            a {
+                                color: $white !important;
+                                font-size: 14px;
+
+                                &:hover {
+                                    color: $white !important;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+
+                &_close {
+                    position: absolute;
+                    top: 24px;
+                    right: 12px;
+                    font-size: 32px;
+                }
+
+            }
+        }
+    }
+
+    &_language {
+        display: none;
+    }
+
+}

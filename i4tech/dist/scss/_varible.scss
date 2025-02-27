@@ -1,0 +1,54 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 400px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 1200px;
+
+// Large tablets and desktops
+$screen-xl-min: 1655px;
+
+
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+}
+
+$white: #fff;
+$text: #6d6d6d;
+$black: #333333;
+$darkGray: #272C38;
+$yellow: #FFCC00;
+$green: #009900;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+$primaryFont: "DM Sans", serif;
+$titleFont: "DM Sans", serif;
+$containerWidth: 1430px;

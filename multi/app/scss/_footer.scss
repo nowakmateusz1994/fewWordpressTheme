@@ -1,0 +1,118 @@
+.footer {
+    background: #fafafa;
+    color: #003366;
+
+    a {
+        color: #003366;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 1.5rem;
+
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+
+        border-bottom: 1px solid #e4e4e7;
+    }
+
+    &_brand {
+        margin-bottom: 2rem;
+    }
+
+    &_col {
+        width: 100%;
+
+        @include md {
+            flex-basis: auto;
+            max-width: 25%;
+            width: max-content;
+        }
+    }
+
+    &_item {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+
+        &_title {
+            font-weight: 700;
+            font-size: 1.125rem;
+            text-transform: uppercase;
+            line-height: 1.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &_content {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+
+            p {
+                margin-top: .5rem;
+                margin-bottom: 1rem;
+            }
+
+            a {
+                display: inline-block;
+                font-weight: 700;
+                margin-bottom: 1rem;
+
+                i {
+                    display: inline-block;
+                    padding-right: .5rem;
+                    color: $secondry;
+                }
+            }
+
+            #footer-nav {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+
+                li {
+                    flex-basis: 50%;
+
+                    a {
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            &.social{
+                a{
+                    i{
+                        color: $orange;
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+    }
+
+    &_bottom {
+        &.container {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            color: #9da9b5;
+
+            a{
+                color: $orange;
+            }
+
+            #go_up {
+                width: 42px;
+                height: 42px;
+                line-height: 42px;
+                text-align: center;
+                border-radius: 50%;
+                color: $orange;
+                border: 1px solid $secondry;
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+    }
+}

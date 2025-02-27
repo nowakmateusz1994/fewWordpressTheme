@@ -1,0 +1,174 @@
+.cooperation {
+    &_content {
+        margin-top: 2.5rem;
+
+        @include md {
+            margin-top: 5rem;
+        }
+
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+
+        p {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
+    }
+
+    &_cafels {
+        margin-bottom: 2.5rem;
+
+        @include md {
+            margin-bottom: 5rem;
+        }
+
+        &_title {
+            margin-top: 2rem;
+        }
+
+        &_items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        &_item {
+            flex-basis: 100%;
+            text-align: center;
+
+            @include md {
+                flex-basis: calc(33% - 1.34rem);
+            }
+
+            &_img {
+
+                &>img {
+                    height: 203px;
+                    width: auto;
+                }
+            }
+
+            &_number {
+                width: 16rem;
+                text-align: left;
+                margin: 0 auto;
+
+                span {
+                    background: $secondry;
+                    color: $white;
+                    width: 32px;
+                    height: 32px;
+                    line-height: 32px;
+                    display: inline-block;
+                    border-radius: 50%;
+                    text-align: center;
+                }
+            }
+
+            &_title {
+                margin-top: 1rem;
+                font-weight: 600;
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+                color: $primary;
+            }
+        }
+    }
+
+    &_contact {
+        position: relative;
+
+        &_img {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            background-image: linear-gradient(to bottom right, #286db1 0%, #003366 90%);
+
+            @include md {
+                display: flex;
+            }
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &_content {
+            background: #286db1;
+            padding: 2rem;
+
+            color: white;
+            flex-basis: 100%;
+
+            @include md {
+                background: transparent;
+                flex-basis: 50%;
+            }
+        }
+
+        &_title {
+            color: white;
+            text-align: left;
+
+            font-size: 1.75rem;
+
+            @include md {
+                font-size: 2.25rem;
+            }
+
+            &::before {
+                left: 0;
+                transform: translateX(0);
+            }
+        }
+
+        &_form {
+            flex-basis: 100%;
+            padding: 4rem;
+
+            @include md {
+                flex-basis: 50%;
+            }
+
+            label {
+                font-size: .75rem;
+                line-height: 1rem;
+                letter-spacing: .05em;
+                text-transform: uppercase;
+                margin-bottom: .75rem;
+                color: #9ca3af;
+            }
+
+            input[type=text],
+            input[type=tel],
+            input[type=email],
+            textarea {
+                width: 100%;
+                border: none;
+                outline: none;
+                width: 100%;
+                background: #f3f4f6;
+                transition: .3s all;
+                padding: .5rem .75rem;
+
+                &:active,
+                &:target,
+                &:focus {
+                    transform: scale(1.05);
+                    background: $white;
+                    border: 1px solid $secondry;
+                }
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,55 @@
+.download {
+
+    &_item {
+        padding-top: 120px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        @include xl {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        &_file {
+            width: 100%;
+            background: $white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            padding: 34px 37px 23px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+            position: relative;
+            transition: .3s all;
+
+            &:hover{
+                transform: scale(1.01);
+                box-shadow: 0 16px 16px 0 rgba(0, 0, 0, .25);
+            }
+
+            a.absolute {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+
+            .button {
+                position: relative;
+                z-index: 2;
+
+                &::before {
+                    content: '\f078';
+                }
+            }
+
+            &_title {
+                font-size: 24px;
+                font-weight: 600;
+                color: $black;
+            }
+        }
+    }
+}

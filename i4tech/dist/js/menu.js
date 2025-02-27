@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){let e=document.querySelector(".header_top_wrap"),t=document.querySelector(".header_top"),o=t.offsetTop;t.style.height=e.offsetHeight+"px",window.addEventListener("scroll",(function(){this.window.scrollY>=o?e.classList.add("fixed"):e.classList.remove("fixed")}))}));

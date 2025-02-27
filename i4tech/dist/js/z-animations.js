@@ -1,0 +1,1 @@
+jQuery(document).ready((function(e){e("[data-animate]").each((function(){var a;a=this,new Waypoint.Inview({element:a,enter:function(n){e(this.element).addClass(e(a).data("animate")+" animated")}})}))}));

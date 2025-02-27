@@ -1,0 +1,168 @@
+.contact {
+    &_cafels {
+        padding: 2.5rem 0;
+
+        @include md {
+            padding: 5rem 0;
+        }
+
+        &_subtitle {
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            padding-bottom: 2rem;
+        }
+
+        &_items {
+            display: flex;
+            gap: 2rem;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+
+        &_bottom {
+            text-align: center;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+        }
+
+        &_item {
+            flex-basis: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            border: 1px solid #e4e4e7;
+            flex-wrap: wrap;
+            text-align: center;
+
+            @include md {
+                flex-basis: calc(50% - 1rem);
+            }
+
+            @include lg {
+                flex-basis: calc(25% - 1.5rem);
+            }
+
+
+
+            &_content {
+                i {
+                    color: $secondry;
+                    font-size: 40px;
+                    line-height: 50px;
+                    padding-bottom: .25rem;
+                    display: inline-block;
+                }
+
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+            }
+        }
+
+    }
+
+}
+
+.form_contact {
+    position: relative;
+
+    &_img {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        background-image: linear-gradient(to bottom right, #286db1 0%, #003366 90%);
+
+        @include md {
+            display: flex;
+        }
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &_content {
+        background: #286db1;
+        padding: 2rem;
+
+        color: white;
+        flex-basis: 100%;
+
+        @include md {
+            background: transparent;
+            flex-basis: 50%;
+        }
+    }
+
+    &_title {
+        color: white;
+        text-align: left;
+
+        font-size: 1.75rem;
+
+        @include md {
+            font-size: 2.25rem;
+        }
+
+        &::before {
+            left: 0;
+            transform: translateX(0);
+        }
+    }
+
+    &_form {
+        flex-basis: 100%;
+        padding: 4rem;
+
+        @include md {
+            flex-basis: 50%;
+        }
+
+        label {
+            font-size: .75rem;
+            line-height: 1rem;
+            letter-spacing: .05em;
+            text-transform: uppercase;
+            margin-bottom: .75rem;
+            color: #9ca3af;
+        }
+
+        input[type=text],
+        input[type=tel],
+        input[type=email],
+        input[type=file],
+        textarea,
+        select {
+            width: 100%;
+            border: none;
+            outline: none;
+            width: 100%;
+            background: #f3f4f6;
+            transition: .3s all;
+            padding: .5rem .75rem;
+
+            &:active,
+            &:target,
+            &:focus {
+                transform: scale(1.05);
+                background: $white;
+                border: 1px solid $secondry;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+    }
+}

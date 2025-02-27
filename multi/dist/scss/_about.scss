@@ -1,0 +1,131 @@
+.about {
+    &_content {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+
+        @include md {
+            padding-top: 5rem;
+        }
+
+        .wp-block-media-text {
+            &__content {
+                padding: 0 2%;
+
+                p {
+                    font-size: 1.125rem;
+                    line-height: 1.75rem;
+                    margin-bottom: .5rem;
+                    margin-top: .5rem;
+                }
+
+                h3 {
+                    font-weight: 700;
+                    color: $primary;
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+    }
+
+    &_employes {
+        padding-bottom: 2.5rem;
+
+        @include md {
+            padding-bottom: 5rem;
+        }
+
+        &_items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: space-between;
+        }
+
+        &_item {
+            flex-basis: 100%;
+
+            @include md {
+                flex-basis: calc(33% - 1.34rem);
+            }
+
+            &_content {
+                background: #f4f4f5;
+                padding: 1rem;
+
+                .name,
+                .position,
+                .phone,
+                .mail {
+                    font-size: 1.125rem;
+                    line-height: 1.75rem;
+                    margin-bottom: .5rem;
+                    margin-top: .5rem;
+                }
+
+                .name {
+                    color: $primary;
+                    font-weight: bolder;
+                }
+
+                .phone,
+                .mail {
+                    a {
+                        position: relative;
+                        padding-left: 28px;
+                        color: $primary;
+
+                        &::before {
+                            content: '\f879';
+                            font-weight: 900;
+                            font-family: 'Font Awesome 5 Free';
+                            color: $secondry;
+                            line-height: 1.75rem;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 100%;
+                            text-align: center;
+                            width: 20px;
+                        }
+                    }
+                }
+
+                .phone {
+                    font-weight: bolder;
+                }
+
+                .mail {
+                    font-weight: bolder;
+
+                    a {
+                        &::before {
+                            content: '\f0e0';
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &_description {
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+
+        &_urls {
+            text-align: center;
+
+            a {
+                display: inline-block;
+                margin-right: 2rem;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.footer {
+    background: $darkBlue;
+    color: $white;
+
+    ul {
+        list-style: none;
+    }
+
+    &-inner {
+        padding: 3.75rem 0;
+        border-bottom: 1px solid $blue;
+        display: flex;
+        flex-wrap: wrap;
+
+
+        &_col {
+            flex-basis: 100%;
+            padding: 32px 16px;
+            border-bottom: 1px solid $blue;
+
+            &.last {
+                border: none;
+            }
+
+            @include md {
+                border-bottom: none;
+                border-right: 1px solid $blue;
+                padding: 0 32px;
+                flex-basis: 33%;
+            }
+
+        }
+    }
+
+    &_addres {
+        &_item {
+            padding: 16px 0;
+            display: flex;
+            gap: 16px;
+        }
+    }
+
+    &_tags {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+
+        &_item {
+            flex-basis: 100%;
+
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    &_menu {
+        padding: 16px 0;
+
+        ul {
+            max-width: fit-content;
+            margin: 0 auto;
+
+            li {
+                display: inline-block;
+
+                a {
+                    color: $white;
+                    padding: 8px 24px;
+                    position: relative;
+                }
+
+                &::after {
+                    content: 'I';
+                }
+
+                &:last-child {
+                    &::after {
+                        content: '';
+                    }
+                }
+            }
+        }
+    }
+
+    &_company {
+        background: $blue;
+        padding: 16px 0;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 32px;
+            flex-wrap: wrap;
+
+            ul {
+                text-align: center;
+                li {
+                    display: inline-block;
+
+                    a {
+                        display: inline-block;
+                        padding-right: 16px;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        &_col {
+            flex-basis: 100%;
+
+            @include md {
+                flex-basis: auto;
+            }
+        }
+    }
+}

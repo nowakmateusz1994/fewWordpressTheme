@@ -1,0 +1,342 @@
+.home {
+    &_slider {
+        &_item {
+
+            &_img {
+                position: relative;
+
+                @include md {
+                    max-width: 64%;
+                    margin-left: auto;
+                }
+
+                img {
+                    max-width: 100%;
+                }
+
+                &::before {
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    background: linear-gradient(180deg, rgba(25, 29, 37, 1) 0%, rgba(25, 29, 37, 0) 100%);
+
+                    @include md {
+                        background: linear-gradient(90deg, rgba(25, 29, 37, 1) 0%, rgba(25, 29, 37, 0) 100%);
+                    }
+                }
+            }
+
+            &_wrap {
+                position: relative;
+                background: $black;
+            }
+
+            &_content {
+
+                @include md {
+                    position: absolute;
+                    width: 100%;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    z-index: 1;
+                }
+
+            }
+
+
+            &_title {
+                color: #fff;
+                font-size: 32px;
+                line-height: 47px;
+                padding-bottom: 32px;
+                padding-top: 32px;
+
+                @include md {
+                    padding-top: 0;
+                    font-size: 64px;
+                    line-height: 74px;
+                }
+            }
+        }
+    }
+
+    &_offer {
+        @include md {
+            margin-top: -136px;
+        }
+
+        &_title {
+            font-size: 32px;
+            line-height: 42px;
+            font-weight: 300;
+            max-width: fit-content;
+            color: $gold;
+            position: relative;
+            margin-bottom: 32px;
+
+            &::before {
+                content: '';
+                width: 100%;
+                position: absolute;
+                right: -110%;
+                height: 1px;
+                background: $gold;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+
+        &_items {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 1rem;
+            z-index: 1;
+            border-bottom: 1px solid #e1e1e1;
+            border-top: 1px solid #e1e1e1;
+        }
+
+        &_item {
+            flex-basis: 100%;
+            flex-grow: 1;
+            padding: 60px 40px;
+            border: 1px solid #E1E1E1;
+            border-bottom: 2px solid transparent;
+            transition: .3s all;
+
+            &:hover {
+                border-bottom-color: $gold;
+                background: #f9f9f9;
+            }
+
+            @include md {
+                flex-basis: 33%;
+                background: $white;
+            }
+
+            &_img {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                background: $gold;
+                text-align: center;
+                line-height: 90px;
+                margin-bottom: 40px;
+            }
+
+            &_title {
+                font-size: 24px;
+                color: $black;
+                font-weight: 600s;
+                padding-bottom: 20px;
+            }
+
+            &_description {
+                padding-bottom: 40px;
+                font-size: 18px;
+                line-height: 180%;
+                font-weight: 300;
+            }
+
+            &_url {
+                a {
+                    font-size: 16px;
+                    line-height: 28px;
+                    position: relative;
+                    border-bottom: 2px solid $gold;
+                    padding: 4px 0;
+
+                    &::before {
+                        font-family: 'Font Awesome 5 Free';
+                        font-weight: 900;
+                        content: '\f054';
+                        color: $gold;
+                        position: absolute;
+                        top: 0;
+                        right: -10px;
+                        line-height: 36px;
+                        transform: translateX(100%);
+                    }
+                }
+            }
+        }
+    }
+
+    &_text {
+        margin-top: 150px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+
+        &_img {
+            flex-basis: 100%;
+            position: relative;
+            overflow: hidden;
+
+
+
+            @include md {
+                flex-basis: 43%;
+
+                &>img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        &_content {
+            flex-basis: 100%;
+            background: $white;
+            padding: 30px;
+
+            @include md {
+                flex-basis: 57%;
+                padding-top: 60px;
+                padding-bottom: 60px;
+                padding-left: 60px;
+            }
+
+            @include lg {
+                padding-top: 120px;
+                padding-bottom: 120px;
+                padding-left: 120px;
+            }
+        }
+
+        &_wrap {
+            max-width: 589px;
+
+        }
+
+        &_icon {
+            position: absolute;
+            top: 90px;
+            right: -12px;
+            width: 134px;
+            height: 134px;
+            border-radius: 50%;
+            line-height: 134px;
+            background-image: url('../svg/tlo.svg');
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+        }
+    }
+
+    &_highlight {
+        padding-top: 120px;
+        padding-bottom: 77px;
+        background: #EFEFEF;
+
+        &_title,
+        &_supertitle {
+            text-align: center;
+        }
+
+        &_items {
+            display: flex;
+            justify-content: space-between;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        &_item {
+            flex-basis: 100%;
+
+            @include md {
+                flex-basis: 25.5%;
+
+            }
+
+            &_img {
+                width: 90px;
+                height: 90px;
+                text-align: center;
+                line-height: 90px;
+                background: $gold;
+                border-radius: 50%;
+                margin-bottom: 40px;
+            }
+
+            &_title {
+                padding-bottom: 20px;
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            &_description {
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    &_short {
+        padding-top: 40px;
+        padding-bottom: 120px;
+
+        &_title,
+        &_supertitle {
+            text-align: center;
+        }
+
+        &_items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &_item {
+            flex-basis: 100%;
+            border: 1px solid #E1E1E1;
+            background: $white;
+            padding: 60px 40px;
+
+            @include md {
+                flex-basis: 23.5%;
+            }
+
+            &_wrap {
+                height: 105px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+            }
+
+            &_title {
+                font-size: 20px;
+                font-weight: bold;
+                color: $black;
+            }
+
+            a {
+                font-size: 16px;
+                line-height: 28px;
+                position: relative;
+                border-bottom: 2px solid $gold;
+                padding: 4px 0;
+
+                &::before {
+                    font-family: 'Font Awesome 5 Free';
+                    font-weight: 900;
+                    content: '\f054';
+                    color: $gold;
+                    position: absolute;
+                    top: 0;
+                    right: -10px;
+                    line-height: 36px;
+                    transform: translateX(100%);
+                }
+            }
+        }
+    }
+}

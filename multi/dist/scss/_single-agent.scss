@@ -1,0 +1,116 @@
+.single_agent {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+
+    @include md {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    &_top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 4rem;
+        max-width: 850px;
+        margin: 0 auto;
+        padding-bottom: 2.5rem;
+
+
+        &_left,
+        &_right {
+            flex-basis: 100%;
+
+            @include md {
+                flex-basis: calc(50% - 2rem);
+            }
+
+        }
+
+        &_img {
+            padding-bottom: 2rem;
+            text-align: center;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &_contact {
+            padding-bottom: .75rem;
+            padding-top: .5rem;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            border-bottom: 1px solid #ebebeb;
+
+            i {
+                color: $secondry;
+            }
+
+            a {
+                color: $primary;
+                transition: .3s all;
+
+                &:hover {
+                    color: $orange;
+                }
+            }
+        }
+
+        &_title {
+            color: $primary;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2.5rem;
+        }
+
+        &_right {
+            ul {
+                margin-left: 1rem;
+                margin: 0;
+                list-style: none;
+
+                li {
+                    padding-top: 1.25rem;
+                    padding-bottom: .5rem;
+                    color: $primary;
+                    font-weight: 700;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 4rem;
+                        height: 3.5px;
+                        background: $orange;
+                        border-radius: 4px;
+                    }
+
+                    &:nth-child(2n + 2) {
+                        color: $secondry;
+                    }
+                }
+            }
+        }
+    }
+
+    &_description {
+        text-align: justify;
+        margin-bottom: 2rem;
+    }
+
+    &_map {
+        iframe {
+            width: 100%;
+            height: 360px;
+            border-radius: 30px;
+        }
+    }
+
+}

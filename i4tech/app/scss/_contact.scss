@@ -1,0 +1,177 @@
+.map {
+    iframe {
+        display: block;
+        filter: grayscale(1);
+        width: 100%;
+        height: 360px;
+
+        @include md{
+            height: 710px;
+        }
+    }
+}
+
+.page-template-contact {
+    footer {
+        margin-top: 0;
+    }
+
+    .contact {
+        max-width: 750px;
+        margin: 32px auto 0;
+
+        font-size: 18px;
+        line-height: 36px;
+
+        @include md {
+            margin-top: 80px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+
+        .wp-block-columns {
+            margin-bottom: 40px;
+        }
+
+        .wp-block-heading {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        h1.wp-block-heading {
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 600;
+            padding-bottom: 32px;
+
+            @include md {
+                font-size: 50px;
+                line-height: 60px;
+                padding-bottom: 90px;
+            }
+        }
+
+        form {
+
+            input[type=text],
+            input[type=email],
+            input[type=tel],
+            textarea {
+                width: 100%;
+                max-width: 770px;
+                padding: 20px 30px;
+                background: #fafafa;
+                border: 1px solid #C1C1C1;
+                max-height: 160px;
+                font-size: 16px;
+                line-height: 30px;
+                color: #000;
+            }
+
+            input[type=submit] {
+                font-size: 24px;
+                line-height: 37.02px;
+                padding: 16px 44px;
+                padding-right: 106px;
+                position: relative;
+                font-weight: bold;
+                color: black;
+                border: none;
+                outline: none;
+                display: inline-block;
+
+                &:hover {
+                    transform: scale(1);
+                }
+            }
+
+            span.send {
+                position: relative;
+                display: inline-block;
+                transition: .3s all;
+                margin-bottom: 16px;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                .wpcf7-spinner {
+                    display: none;
+                }
+
+                &::before {
+                    content: '';
+                    width: 50px;
+                    border: 2px solid $white;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background: $black;
+                    z-index: 1;
+                    transform: skewX(-25deg) translateX(40%);
+                }
+
+                &::after {
+                    content: url('../svg/hevron.svg');
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    z-index: 2;
+                }
+            }
+
+            .aceptance {
+                label {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 36px;
+                    text-align: justify;
+                    display: inline-block;
+                    position: relative;
+                    // padding-left: 24px;
+
+
+                    input[type=checkbox] {
+                        // position: absolute;
+                        // opacity: 0;
+                        // cursor: pointer;
+                        // height: 0;
+                        // width: 0;
+                    }
+
+                    // &::before {
+                    //     content: '';
+                    //     position: absolute;
+                    //     left: 0;
+                    //     top: 50%;
+                    //     transform: translateY(-50%);
+                    //     height: 18px;
+                    //     width: 18px;
+                    //     flex-basis: 18px;
+                    //     border: 1px solid #2E2E2E;
+                    //     border-radius: 2px;
+                    //     display: inline-block;
+                    //     transition: .3s all;
+                    // }
+
+                    // &:hover {
+                    //     &::before {
+                    //         background: rgba(0, 0, 0, .5);
+                    //     }
+                    // }
+
+                    // input[type=checkbox]:checked+label {
+                    //     background: red;
+                    // }
+
+
+                }
+            }
+        }
+    }
+}

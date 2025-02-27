@@ -1,0 +1,35 @@
+.archive_posts{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+
+    @include md {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    &_items{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    &_item{
+        flex-basis: 100%;
+        box-shadow: 0 0 1.25rem #dddcdc;
+        padding: 1rem;
+        border: 1px solid #dddcdc;
+        text-align: center;
+
+@include md{ 
+    flex-basis: calc(50% - 1rem);
+}
+
+@include lg{
+    flex-basis: calc(33% - 1.34rem);
+}
+
+        &:hover{
+
+        }
+    }
+}

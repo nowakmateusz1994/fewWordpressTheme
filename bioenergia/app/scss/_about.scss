@@ -1,0 +1,106 @@
+.about {
+    &_text {
+        padding-top: 120px;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        row-gap: 21px;
+
+        &_title {
+            padding-bottom: 0;
+        }
+
+        .container {
+            flex-basis: 100%;
+        }
+
+        &_img {
+            flex-basis: 100%;
+            position: relative;
+
+            @include md {
+                flex-basis: 42%;
+            }
+        }
+
+        &_icon {
+            position: absolute;
+            top: -30px;
+            right: 21px;
+            width: 135px;
+            height: 135px;
+            border-radius: 50%;
+            line-height: 135px;
+            text-align: center;
+            background: url('../svg/tlo.svg');
+            background-position: center;
+            background-size: cover;
+        }
+
+        &_wrap {
+            flex-basis: 100%;
+
+            @include md {
+                flex-basis: calc(58% - 50px);
+            }
+        }
+
+        &_content {
+            max-width: 815px;
+            padding-bottom: 21px;
+
+            font-size: 18px;
+            line-height: 180%;
+            font-weight: 300;
+        }
+    }
+
+    &_highlight {
+        padding-top: 120px;
+        padding-bottom: 77px;
+        background: #EFEFEF;
+
+        &_title,
+        &_supertitle {
+            text-align: center;
+        }
+
+        &_items {
+            display: flex;
+            justify-content: space-between;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        &_item {
+            flex-basis: 100%;
+
+            @include md {
+                flex-basis: 25.5%;
+
+            }
+
+            &_img {
+                width: 90px;
+                height: 90px;
+                text-align: center;
+                line-height: 90px;
+                background: $gold;
+                border-radius: 50%;
+                margin-bottom: 40px;
+            }
+
+            &_title {
+                padding-bottom: 20px;
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            &_description {
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 400px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 1200px;
+
+// Large tablets and desktops
+$screen-xl-min: 1750px;
+
+
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+}
+
+$white: #fff;
+$black: #000;
+$titleColor: #003366;
+$primary: #003366;
+$secondry: #0197fd;
+$orange: #fb8b00;
+$gray: #CCCCCC;
+$lightGrey: #f7f7f7;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+$primaryFont: "Nunito", serif;
+$containerWidth: 1540px;

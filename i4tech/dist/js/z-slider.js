@@ -1,0 +1,1 @@
+jQuery(document).ready((function(e){e(".home_realization_items").slick({dots:!1,speed:300,infinite:!0,autoplay:!1,fade:!1,slidesToShow:3,slidesToScroll:1,autoplaySpeed:5e3,centerMode:!0,cssEase:"ease-out",arrows:!0,responsive:[{breakpoint:920,settings:{slidesToShow:2,slidesToScroll:1}},{breakpoint:560,settings:{slidesToShow:1,slidesToScroll:1}}]})}));

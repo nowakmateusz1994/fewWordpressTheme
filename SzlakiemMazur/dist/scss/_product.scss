@@ -1,0 +1,280 @@
+.product {
+    &_item {
+        background: $white;
+        margin: 48px 0;
+        padding: 12px;
+        border-radius: 4px;
+        box-shadow: 0 0 16px rgba($darkBlue, .66);
+
+        &_wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &_thumb,
+        &_content,
+        &_icons {
+            flex-basis: 100%;
+
+            @include lg {
+                flex-basis: 50%;
+            }
+        }
+
+        &_content {
+            padding: 64px 32px;
+        }
+
+        &_thumb {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &_cat {
+            font-size: 28px;
+            font-weight: bold;
+            color: $darkBlue;
+        }
+
+        &_title {
+            font-size: 16px;
+            color: $blue;
+            padding-bottom: 28px;
+        }
+
+        &_description {
+            font-size: 14px;
+            line-height: 21px;
+        }
+
+        &_footer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 1rem;
+            row-gap: 32px;
+        }
+
+        &_permalink {
+            text-align: right;
+            justify-content: end;
+
+            .button {
+                font-size: 21px !important;
+                line-height: 16px !important;
+                text-transform: uppercase !important;
+                font-weight: bold !important;
+                color: $white !important;
+                background: $blue !important;
+                transition: .3s all !important;
+                display: inline-block !important;
+                padding: 16px 32px !important;
+
+                &:hover {
+                    background: $darkBlue !important;
+                }
+            }
+        }
+
+        &_icons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 21px;
+
+            &_item {
+                display: flex;
+                align-items: center;
+                color: $darkBlue;
+                gap: 16px;
+                background: rgba($blue, .1);
+                padding: 8px;
+                border-radius: 4px;
+
+                span {
+                    text-align: center;
+                    font-size: 12px;
+                    line-height: 14px;
+                    display: block;
+                }
+
+                img {
+                    display: block;
+                    max-height: 32px;
+                }
+            }
+        }
+    }
+}
+
+.single-product {
+
+    .site-main {
+        padding: 3.75rem 0 0;
+
+        @include lg {
+            padding: 7.5rem 0 3.75rem;
+        }
+    }
+
+    .test {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 3.75rem 1rem;
+
+        @include lg {
+            padding: 7.5rem 1rem;
+        }
+    }
+
+    .quantity {
+        float: none !important;
+
+        input {
+            border: 2px solid rgba($blue, .33);
+            border-radius: 4px;
+            width: 300px !important;
+            font-size: 16px;
+            line-height: 28px;
+            color: $darkBlue;
+            outline: none;
+            font-weight: bold;
+            display: inline-block;
+            margin: 8px 0;
+        }
+    }
+
+    #select-date {
+        border: 2px solid rgba($blue, .33);
+        border-radius: 4px;
+        width: 300px !important;
+        font-size: 16px;
+        line-height: 28px;
+        color: $darkBlue;
+        outline: none;
+        font-weight: bold;
+        display: inline-block;
+        margin: 8px 0;
+        padding: 4px;
+
+        option {
+            font-size: 16px;
+            line-height: 28px;
+            color: $darkBlue;
+        }
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    .woocommerce-tabs,
+    .related.products {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 3.75rem 1rem;
+    }
+
+    .archive_product_container {
+
+        .summary.entry-summary,
+        .woocommerce-product-gallery {
+            float: none !important;
+            flex-basis: 100%;
+
+            @include lg {
+                flex-basis: calc(50% - 32px);
+            }
+        }
+
+        .summary.entry-summary {
+            padding: 32px 0;
+
+            .product_title {
+                font-size: 21px;
+                padding: 21px 0;
+                color: $blue;
+            }
+        }
+    }
+
+    .price {
+        color: $darkBlue !important;
+        font-weight: bold;
+    }
+
+    .price,
+    .woocommerce-product-details__short-description {
+        padding-bottom: 1rem;
+    }
+
+    .woocommerce-Tabs-panel {
+        &>h2 {
+            display: none;
+        }
+
+        &--description {
+            text-align: justify;
+            padding-bottom: 1rem !important;
+            max-width: 1200px;
+            margin: 0 auto !important;
+            
+            ul{
+                margin: 0;
+                padding: 1.875rem 0 1rem;
+                margin-left: 1.25rem;
+                
+                li{
+                    padding-bottom: .25rem;
+                    &::marker{
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+ 
+}
+
+.single_product {
+    &_prices {
+        max-width: 350px;
+        margin: 1.875rem 0;
+        background: rgba($blue, .1);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    &_price_item {
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 1rem;
+
+        &:nth-child(2n + 2) {
+            background: rgba($blue, .05);
+        }
+    }
+}
+
+.product-container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+.archive_product_container {
+    max-width: 1500px;
+    padding: 0 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.wc-block-components-product-metadata {
+    &__description {
+        display: none;
+    }
+}

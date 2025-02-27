@@ -1,0 +1,160 @@
+.contact {
+    padding: 1.875rem 0 3.75rem;
+
+    @include lg {
+        padding: 1.875rem 0 7.5rem;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: space-between;
+    }
+
+    &_left,
+    &_right {
+        flex-basis: 100%;
+
+        @include lg {
+            flex-basis: calc(50% - 32px);
+        }
+    }
+
+    &_addres {
+        &_item {
+            padding: 1rem 0;
+            gap: 32px;
+            display: flex;
+        }
+    }
+
+    &_right {
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+
+            .half {
+                flex-basis: 100%;
+
+                @include md {
+                    flex-basis: calc(50% - 8px);
+                }
+            }
+
+            .full {
+                flex-basis: 100%;
+            }
+
+            input[type="text"],
+            input[type="tel"],
+            input[type="email"],
+            input[type="date"],
+            textarea {
+                width: 100%;
+                font-size: 18px;
+                line-height: 26px;
+                padding: 8px 16px;
+                color: $darkBlue;
+                font-weight: bold;
+                font-family: $primaryFont;
+                outline: none;
+                border: 1px solid $darkBlue;
+                max-height: 150px;
+
+                &::placeholder {
+                    color: $darkBlue;
+                    font-weight: bold;
+                    font-family: $primaryFont;
+                }
+            }
+
+            input[type="submit"] {
+                width: 100%;
+
+                &:disabled {
+                    opacity: .7;
+                }
+            }
+
+        }
+
+        .form_footer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: end;
+            align-items: center;
+
+            span {
+                display: block;
+            }
+
+            &>div {
+                width: 100%;
+
+                @include lg{
+                    width: fit-content;
+                }
+            }
+
+            &>div:first-child {
+                flex-basis: 100%;
+            }
+
+            .wpcf7-form-control-wrap {
+                margin: 1rem 0;
+            }
+
+            .wpcf7-acceptance {
+                label {
+                    font-size: 14px;
+                    line-height: 31px;
+                    padding-left: 52px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+
+                    @include lg {
+                        font-size: 18px;
+                        line-height: 31px;
+                    }
+
+                    input[type='checkbox'] {
+                        width: 0;
+                        height: 0;
+                        border: none;
+
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            top: 50%;
+                            left: 0;
+                            transform: translateY(-50%);
+                            height: 31px;
+                            width: 31px;
+                            border: 1px solid $blue;
+                        }
+                    }
+                }
+            }
+
+            .wpcf7-list-item {
+                margin-left: 0 !important;
+            }
+
+            .wpcf7-acceptance label input[type='checkbox']:checked {
+                &::before {
+                    background: $blue;
+                }
+            }
+
+            .wpcf7-submit {
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
